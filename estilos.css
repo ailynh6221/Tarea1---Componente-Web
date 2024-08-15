@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: just another hand;
+}
+.componente{
+    background-color: #88BFFF ;
+    width: 100vw;/*viewport Width*/
+    height: 100vh; /*viewport height*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta {
+    background-color: #cbefff;
+    padding: 32px 32px;
+    border-radius: 32px;
+    box-shadow: 0px 4px 4px #71009a6a;
+    display: flex;
+    flex-direction: column; /*cambia el eje principal (x=horizontal) por (y)*/
+    justify-content: center; /*eje principal (y = verticual)*/
+    align-items: center; /*eje secundario (x = horizontal)*/
+    gap: 2px;
+}
+.nombre {
+    color: #5D98CE;
+    font-weight: bold;
+    font-size: 60px;
+}
+.boton{
+    display: inline-block;
+    background-color: #5D98CE;
+    padding: 9px 94px;
+    border-radius: 30px;
+    font-size: 48px;
+    color: #CBEFFF;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px #71009a3b;
+    transform: 0,3s ease-in-out;
+}
+.boton:hover {
+background-color: #c7e1ff;
+color: #88BFFF;
+}
